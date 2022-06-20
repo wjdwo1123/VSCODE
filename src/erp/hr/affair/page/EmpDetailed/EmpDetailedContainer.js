@@ -46,7 +46,10 @@ const EmpDetailedContainer = props => {
      axios
     .get('http://localhost:8282/hr/base/deptList')
     .then((result)=>{ 부서목록변경(result.data.list); })
-    .catch( console.log("부서조회실패") );
+    .catch(
+        console.log("부서조회실패"),
+        console.log("vs올리는중")
+    );
 
      axios
     .get('http://localhost:8282/hr/affair/empList')
