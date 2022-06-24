@@ -143,7 +143,7 @@ const EmpDetailedContainer = props => {
   /*********************뷰단*********************/
   return (
     <div>
-      <div>목요일 VS---깃허브</div>
+      <div>졸업</div>
             사원명&nbsp;&nbsp;
             <select onChange={(e)=>{changeEmp(e)}}>
                 <option style={{display:"none"}}>=====</option>
