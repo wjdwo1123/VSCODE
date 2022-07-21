@@ -18,6 +18,7 @@ import {
 
 const EmploymentManage=(props)=>{
   const a="aaaaa";
+  const b="bbbbbb";
     const classes = UseStyles();
     const fromDate = useInput("2020-01-01");
     const toDate = useInput("2020-12-31");
